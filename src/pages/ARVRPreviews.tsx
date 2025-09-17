@@ -186,7 +186,7 @@ export default function ARVRPreviews() {
             const CategoryIcon = getCategoryIcon(destination.category);
             return (
               <Card key={destination.id} className="group shadow-card hover:shadow-hero transition-smooth">
-                <div className="aspect-video bg-muted rounded-t-lg relative overflow-hidden" style={{ backgroundImage: "url('public/arvr.jpg')",backgroundSize:"cover" }}>
+                <div className="aspect-video bg-muted rounded-t-lg relative overflow-hidden" style={{ backgroundImage: "url('/arvr.jpg')",backgroundSize:"cover" }}>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                   
                   {/* Category Badge */}

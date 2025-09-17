@@ -255,7 +255,7 @@ export default function Homestays() {
           {filteredHomestays.map((homestay) => (
             <Card key={homestay.id} className="group shadow-card hover:shadow-hero transition-smooth overflow-hidden">
               <div className="aspect-video bg-muted relative">
-                <div className="absolute inset-0 bg-card-gradient"  style={{ backgroundImage: "url('public/Home.png')",backgroundSize:"cover" }} />
+                <div className="absolute inset-0 bg-card-gradient"  style={{ backgroundImage: "url('/Home.png')",backgroundSize:"cover" }} />
                 
                 {/* Status Badges */}
                 <div className="absolute top-3 left-3 flex flex-col space-y-2">

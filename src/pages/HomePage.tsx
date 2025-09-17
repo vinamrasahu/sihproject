@@ -65,7 +65,7 @@ export default function HomePage() {
   muted
   playsInline
 >
-  <source src="public/bgvideo.mp4" type="video/mp4" />
+  <source src="/bgvideo.mp4" type="video/mp4" />
 </video>
         
         {/* Floating elements for visual appeal */}
@@ -140,7 +140,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {featuredDestinations.map((destination, index) => (
               <Card key={index} className="group cursor-pointer shadow-card hover:shadow-hero transition-smooth hover:scale-105">
-                <div className="aspect-video bg-muted rounded-t-lg relative overflow-hidden" style={{ backgroundImage: "url('public/destination.jpg')",backgroundSize:"cover" }}>
+                <div className="aspect-video bg-muted rounded-t-lg relative overflow-hidden" style={{ backgroundImage: "url('/destination.jpg')",backgroundSize:"cover" }}>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                   <Badge className="absolute top-3 left-3 bg-primary/90 backdrop-blur-sm">
                     {destination.category}

@@ -229,7 +229,7 @@ export default function Marketplace() {
                 {getFilteredProducts().map((product) => (
                   <Card key={product.id} className="group shadow-card hover:shadow-hero transition-smooth">
                     <div className="aspect-square bg-muted rounded-t-lg relative overflow-hidden">
-                      <div className="absolute inset-0 bg-card-gradient" style={{ backgroundImage: "url('public/Antique.jpg')",backgroundSize:"cover" }}/>
+                      <div className="absolute inset-0 bg-card-gradient" style={{ backgroundImage: "url('/Antique.jpg')",backgroundSize:"cover" }}/>
                       
                       {/* Favorite Button */}
                       <Button
